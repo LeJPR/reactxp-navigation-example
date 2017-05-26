@@ -94,14 +94,14 @@ class MainPanel extends RX.Component<MainPanelProps, null> {
                         Welcome to ReactXP
                     </RX.Text>
                     <RX.Text style={ styles.instructions }>
-                        Edit App.tsx to get started
+                        Click menu in the top menu bar to open DrawerNav.
                     </RX.Text>
                     <RX.Link style={ styles.docLink } url={ 'https://microsoft.github.io/reactxp/docs' }>
                         View ReactXP documentation
                     </RX.Link>
                     <RX.Button style={ styles.roundButton } onPress={ this._onPressNavigate }>
                         <RX.Text style={ styles.buttonText }>
-                            See More Examples
+                            Move to Scene 2 in StackNav
                         </RX.Text>
                     </RX.Button>
                 </RX.View>
